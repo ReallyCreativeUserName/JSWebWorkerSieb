@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="Scripts/JavaScript.js"></script>
+</head>
+<body>
+    <input type="range" id="anzahl" oninput="this.nextElementSibling.value = this.value" value="2" min="2" max="1000" />
+    <output id="anzahllabel">2</output>
+    <br />
+    <table>
+        <tr>
+            <td><span id="output"></span></td>
+            <td id="toptd">
+                <div id="divlist">
+                    <h4>Primzahlen:</h4><ul id="list"></ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

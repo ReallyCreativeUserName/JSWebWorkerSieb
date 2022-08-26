@@ -1,0 +1,28 @@
+﻿table {
+    border:2px solid white;
+    border-collapse:collapse;
+}
+tbody {
+    border:1px solid black;
+}
+td {
+    width:30px;
+    height:30px;
+    text-align:center;
+}
+ul {
+    list-style:none;
+}
+#toptd {
+    text-align: left;
+    vertical-align: text-top;
+}
+#divlist {
+    text-align: left;
+    vertical-align: text-top;
+}
+.wert {
+    border: 10px solid white;
+    border-collapse: collapse;
+    background-color: lightgray;
+}
